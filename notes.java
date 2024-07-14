@@ -1,19 +1,19 @@
 package learningJava;
 
-public class notes {
-	public static void language() {
+public class Notes {
+	public static void Language() {
 		System.out.println("\033[1mJAVA\033[0m");
 		System.out.println("Java is a programming language.");
 		System.out.println("\n\n\033[1mLANGUAGE:\033[0m");
 		System.out.println("- Language is a medium of communication between two entities.");
 		System.out.println("- If one person wants to communicate with another person they can use language to communicate with eachother.");
 	}
-	public static void proglanguage() {
+	public static void progLanguage() {
 		System.out.println("\n\n\033[1mPROGRAMMING LANGAUGE:\033[0m");
 		System.out.println("- Programmming Language is used to communicate with/ instruct computers.");
 		System.out.println("- It is the medium of communication between humans and machines.");
 	}
-	public static void levels() {
+	public static void Levels() {
 		System.out.println("\n\n\033[1mLEVELS OF PROGRAMMING LANGUAGES\033[0m");
 		System.out.println("\n\033[1m1. LOW LEVEL LANGUAGE\033[0m");
 		System.out.println("-The language that machine/computer understands are Low Level Languages.\n- LLL are not intelligible to humans.\nE.g. Machine Code(0,1)");
@@ -22,7 +22,7 @@ public class notes {
 		System.out.println("\n\033[1m3. HIGH LEVEL LANGUAGE\033[0m");
 		System.out.println("- High-level languages allow programmers to write instructions in a language that is easier to understand than low-level languages.\n- These languages resemble human language, making them more readable and intuitive.\nE.g. Python uses words like ‘print,’ ‘if,’ and ‘while’ to form instructions, creating code that looks like abbreviated English sentences.");
 	}
-	public static void javafeatures() {
+	public static void javaFeatures() {
 		System.out.println("\n\n\033[1mFEATURES OF JAVA\033[0m");
 		System.out.println("\033[1m1.	Simple:\033[0m Java has made life easier by removing all the complexities such as pointers, operator overloading, etc. as we see in C++ or other programming languages.");
 		System.out.println("\033[1m2.	Dynamic:\033[0m It has the ability to adapt to an evolving environment, which supports dynamic allocation, due to which memory wastage is reduced and performance of the application is increased.");
@@ -38,9 +38,9 @@ public class notes {
 		System.out.println("\033[1m12.	Robust:\033[0m Java has a strong memory management system. It helps in eliminating error as it checks the code during compile and runtime.");
 	}
   public static void main(String[] args) {
-	language();
-	proglanguage();
-	levels();
-	javafeatures();
+	Language();
+	progLanguage();
+	Levels();
+	javaFeatures();
   }
   }
